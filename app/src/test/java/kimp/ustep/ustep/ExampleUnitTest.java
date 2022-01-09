@@ -1,4 +1,4 @@
-package kimp.ustep.org;
+package kimp.ustep.ustep;
 
 import org.junit.Test;
 

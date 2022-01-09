@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "kimp.ustep.org"
+        applicationId "org.kimp.ustep"
         minSdk 26
         targetSdk 32
         versionCode 1
