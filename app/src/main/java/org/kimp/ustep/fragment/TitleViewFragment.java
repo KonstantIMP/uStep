@@ -1,6 +1,8 @@
-package org.kimp.ustep;
+package org.kimp.ustep.fragment;
 
 import androidx.fragment.app.Fragment;
+
+import org.kimp.ustep.R;
 
 /**
  * Fragment for title and logo display
