@@ -1,4 +1,4 @@
-package kimp.ustep.org;
+package org.kimp.ustep;
 
 import androidx.appcompat.app.AppCompatActivity;
 
