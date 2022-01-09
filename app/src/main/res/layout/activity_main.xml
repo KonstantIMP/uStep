@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/backgroundImage"
-        android:name="kimp.ustep.ustep.TitleViewFragment" />
+        android:name="org.kimp.ustep.TitleViewFragment" />
 
     <!-- <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_action_view"
