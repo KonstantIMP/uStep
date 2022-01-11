@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/general_section">
+
+        <androidx.preference.ListPreference
+            android:key="language"
+            android:title="@string/current_language_msg"
+            android:entries="@array/supported_languages"
+            android:entryValues="@array/supported_languages_codes"/>
+
+        <androidx.preference.Preference
+            android:key="remove_cached"
+            android:title="@string/remove_cached_data_msg" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

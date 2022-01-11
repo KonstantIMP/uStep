@@ -5,6 +5,23 @@
     <string name="options_msg">Options</string>
     <string name="powered_by_msg" translatable="false">by KonstantIMP</string>
 
+    <!-- Preferences data -->
+    <string name="general_section">General</string>
+    <string name="current_language_msg">Current language</string>
+    <string name="remove_cached_data_msg">Remove cached data</string>
+
+    <!-- Data arrays -->
+    <string-array name="supported_languages" >
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="supported_languages_codes" >
+        <item>en</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Assets description -->
     <string name="background_image_desc" translatable="false">Beauty background image</string>
     <string name="logo_image_desc" translatable="false">University icon</string>
 </resources>

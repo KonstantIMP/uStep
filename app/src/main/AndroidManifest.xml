@@ -15,9 +15,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UStep">
-        <activity
-            android:name=".OptionsActivity"
-            android:exported="false" />
 
         <meta-data
             android:name="com.here.sdk.access_key_id"
@@ -35,6 +32,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
